@@ -9,10 +9,10 @@ It works as a small web app: upload local media, capture a cover frame from a vi
   ·
   <a href="docs/README.en.md">English Guide</a>
   ·
-  <a href="https://github.com/MaverickXu/live-motion-studio/releases/tag/v1.0.0">Release v1.0.0</a>
+  <a href="https://github.com/MaverickXu/live-motion-studio/releases/tag/v1.0.1">Release v1.0.1</a>
 </p>
 
-![Live Motion Studio desktop screenshot](docs/assets/screenshot-desktop.png)
+![Live Motion Studio desktop screenshot](docs/assets/screenshot-desktop.en.png)
 
 ## What It Does
 
@@ -62,10 +62,6 @@ Use the production compose file:
 cp .env.example .env
 docker compose -f docker-compose.prod.yml up -d
 ```
-
-## Mobile Layout
-
-![Live Motion Studio mobile screenshot](docs/assets/screenshot-mobile.png)
 
 ## Documentation
 

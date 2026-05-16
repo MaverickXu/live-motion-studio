@@ -2,7 +2,7 @@
 
 Live Motion Studio is a self-hosted web app for converting between iOS Live Photos, Android/Windows Motion Photos, still images, and regular videos.
 
-![Desktop UI](assets/screenshot-desktop.png)
+![Desktop UI](assets/screenshot-desktop.en.png)
 
 ## Who It Is For
 
@@ -108,10 +108,6 @@ Expected response:
 2. Choose `iOS` output.
 3. Upload the Android/Windows Motion Photo JPG.
 4. The app extracts the embedded video and creates an iOS Live Photo.
-
-## Mobile Layout
-
-![Mobile UI](assets/screenshot-mobile.png)
 
 ## Common Environment Variables
 

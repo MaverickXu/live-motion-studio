@@ -1485,6 +1485,11 @@ function readStoredLanguage(): Language {
     return "zh";
   }
 
+  const queryLanguage = new URLSearchParams(window.location.search).get("lang");
+  if (queryLanguage === "en" || queryLanguage === "zh") {
+    return queryLanguage;
+  }
+
   return localStorage.getItem("live-motion-language") === "en" ? "en" : "zh";
 }
 

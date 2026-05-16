@@ -1,0 +1,35 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="620" rx="36" fill="#F6F7FB"/>
+  <rect x="44" y="44" width="1112" height="532" rx="28" fill="white" stroke="#E1E5F0"/>
+  <text x="88" y="104" fill="#151722" font-family="Inter,Segoe UI,sans-serif" font-size="34" font-weight="760">Live Motion Studio 架构</text>
+  <text x="88" y="139" fill="#697084" font-family="Inter,Segoe UI,sans-serif" font-size="18">为实况照片转换自动选择浏览器或后端链路</text>
+
+  <rect x="88" y="190" width="280" height="250" rx="22" fill="#EEF7FB" stroke="#B9DDEB"/>
+  <text x="120" y="238" fill="#147D9C" font-family="Inter,Segoe UI,sans-serif" font-size="22" font-weight="760">浏览器</text>
+  <text x="120" y="276" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• 上传文件或 URL</text>
+  <text x="120" y="310" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• 截取视频封面</text>
+  <text x="120" y="344" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• 合成安卓动态 JPG</text>
+  <text x="120" y="378" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• 桌面端 WASM 链路</text>
+
+  <rect x="460" y="190" width="280" height="250" rx="22" fill="#EEEDFF" stroke="#C9C3FF"/>
+  <text x="492" y="238" fill="#5F57D8" font-family="Inter,Segoe UI,sans-serif" font-size="22" font-weight="760">FastAPI + FFmpeg</text>
+  <text x="492" y="276" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• 移动端安全降级</text>
+  <text x="492" y="310" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• 写入 iOS MOV 元数据</text>
+  <text x="492" y="344" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• URL 与 m3u8 解析</text>
+  <text x="492" y="378" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• 限流与进程保护</text>
+
+  <rect x="832" y="190" width="280" height="250" rx="22" fill="#F0F8F4" stroke="#B9E3D0"/>
+  <text x="864" y="238" fill="#19875A" font-family="Inter,Segoe UI,sans-serif" font-size="22" font-weight="760">输出</text>
+  <text x="864" y="276" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• iOS JPG + MOV</text>
+  <text x="864" y="310" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• 安卓动态 JPG</text>
+  <text x="864" y="344" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• iOS 原生分享保存</text>
+  <text x="864" y="378" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• 直接下载</text>
+
+  <path d="M386 315H434" stroke="#8D93A5" stroke-width="4" stroke-linecap="round"/>
+  <path d="M424 300L440 315L424 330" stroke="#8D93A5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M758 315H806" stroke="#8D93A5" stroke-width="4" stroke-linecap="round"/>
+  <path d="M796 300L812 315L796 330" stroke="#8D93A5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="156" y="482" width="888" height="48" rx="16" fill="#F6F7FB" stroke="#E1E5F0"/>
+  <text x="272" y="513" fill="#697084" font-family="Inter,Segoe UI,sans-serif" font-size="17">桌面端优先浏览器处理，移动端和复杂 URL 任务自动降级到后端。</text>
+</svg>
