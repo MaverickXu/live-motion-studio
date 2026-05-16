@@ -1,0 +1,35 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="620" rx="36" fill="#F6F7FB"/>
+  <rect x="44" y="44" width="1112" height="532" rx="28" fill="white" stroke="#E1E5F0"/>
+  <text x="88" y="104" fill="#151722" font-family="Inter,Segoe UI,sans-serif" font-size="34" font-weight="760">Live Motion Studio Architecture</text>
+  <text x="88" y="139" fill="#697084" font-family="Inter,Segoe UI,sans-serif" font-size="18">Smart client/server routing for Live Photo and Motion Photo conversion</text>
+
+  <rect x="88" y="190" width="280" height="250" rx="22" fill="#EEF7FB" stroke="#B9DDEB"/>
+  <text x="120" y="238" fill="#147D9C" font-family="Inter,Segoe UI,sans-serif" font-size="22" font-weight="760">Browser</text>
+  <text x="120" y="276" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• Upload files or URL</text>
+  <text x="120" y="310" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• Capture video frame</text>
+  <text x="120" y="344" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• Android JPG compose</text>
+  <text x="120" y="378" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• Desktop WASM route</text>
+
+  <rect x="460" y="190" width="280" height="250" rx="22" fill="#EEEDFF" stroke="#C9C3FF"/>
+  <text x="492" y="238" fill="#5F57D8" font-family="Inter,Segoe UI,sans-serif" font-size="22" font-weight="760">FastAPI + FFmpeg</text>
+  <text x="492" y="276" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• Mobile-safe fallback</text>
+  <text x="492" y="310" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• iOS MOV metadata</text>
+  <text x="492" y="344" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• URL and m3u8 parsing</text>
+  <text x="492" y="378" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• Rate and process limits</text>
+
+  <rect x="832" y="190" width="280" height="250" rx="22" fill="#F0F8F4" stroke="#B9E3D0"/>
+  <text x="864" y="238" fill="#19875A" font-family="Inter,Segoe UI,sans-serif" font-size="22" font-weight="760">Output</text>
+  <text x="864" y="276" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• iOS JPG + MOV</text>
+  <text x="864" y="310" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• Android Motion JPG</text>
+  <text x="864" y="344" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• Native iOS share sheet</text>
+  <text x="864" y="378" fill="#3F4656" font-family="Inter,Segoe UI,sans-serif" font-size="17">• Direct downloads</text>
+
+  <path d="M386 315H434" stroke="#8D93A5" stroke-width="4" stroke-linecap="round"/>
+  <path d="M424 300L440 315L424 330" stroke="#8D93A5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M758 315H806" stroke="#8D93A5" stroke-width="4" stroke-linecap="round"/>
+  <path d="M796 300L812 315L796 330" stroke="#8D93A5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="156" y="482" width="888" height="48" rx="16" fill="#F6F7FB" stroke="#E1E5F0"/>
+  <text x="184" y="513" fill="#697084" font-family="Inter,Segoe UI,sans-serif" font-size="17">Desktop uses the browser first. Mobile and heavy URL tasks fall back to the server automatically.</text>
+</svg>

@@ -1,6 +1,6 @@
 services:
   live-motion-studio:
-    image: ${LIVE_MOTION_IMAGE:-ghcr.io/MaverickXu/live-motion-studio:latest}
+    image: ${LIVE_MOTION_IMAGE:-ghcr.io/maverickxu/live-motion-studio:latest}
     restart: unless-stopped
     init: true
     ports:

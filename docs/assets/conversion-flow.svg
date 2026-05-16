@@ -1,0 +1,42 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="520" rx="34" fill="#0A0B10"/>
+  <rect x="46" y="46" width="1108" height="428" rx="28" fill="#101116" stroke="#262A36"/>
+  <text x="88" y="112" fill="#F5F6FA" font-family="Inter,Segoe UI,sans-serif" font-size="34" font-weight="760">Supported Workflows</text>
+  <text x="88" y="147" fill="#AEB5C6" font-family="Inter,Segoe UI,sans-serif" font-size="18">Simple defaults for normal users, advanced controls when needed</text>
+
+  <g>
+    <rect x="88" y="204" width="220" height="146" rx="20" fill="#1A1D28" stroke="#363B4B"/>
+    <circle cx="122" cy="239" r="14" fill="#8B7CFF"/>
+    <text x="150" y="247" fill="#F5F6FA" font-family="Inter,Segoe UI,sans-serif" font-size="20" font-weight="740">Image + Video</text>
+    <text x="120" y="292" fill="#B8BECD" font-family="Inter,Segoe UI,sans-serif" font-size="16">Upload a cover and</text>
+    <text x="120" y="320" fill="#B8BECD" font-family="Inter,Segoe UI,sans-serif" font-size="16">a motion clip</text>
+  </g>
+
+  <g>
+    <rect x="356" y="204" width="220" height="146" rx="20" fill="#1A1D28" stroke="#363B4B"/>
+    <circle cx="390" cy="239" r="14" fill="#6CC7E8"/>
+    <text x="418" y="247" fill="#F5F6FA" font-family="Inter,Segoe UI,sans-serif" font-size="20" font-weight="740">Video Frame</text>
+    <text x="388" y="292" fill="#B8BECD" font-family="Inter,Segoe UI,sans-serif" font-size="16">Capture the cover</text>
+    <text x="388" y="320" fill="#B8BECD" font-family="Inter,Segoe UI,sans-serif" font-size="16">from any timestamp</text>
+  </g>
+
+  <g>
+    <rect x="624" y="204" width="220" height="146" rx="20" fill="#1A1D28" stroke="#363B4B"/>
+    <circle cx="658" cy="239" r="14" fill="#55C48F"/>
+    <text x="686" y="247" fill="#F5F6FA" font-family="Inter,Segoe UI,sans-serif" font-size="20" font-weight="740">URL Source</text>
+    <text x="656" y="292" fill="#B8BECD" font-family="Inter,Segoe UI,sans-serif" font-size="16">Fetch mp4, mov, or</text>
+    <text x="656" y="320" fill="#B8BECD" font-family="Inter,Segoe UI,sans-serif" font-size="16">server-side m3u8</text>
+  </g>
+
+  <g>
+    <rect x="892" y="204" width="220" height="146" rx="20" fill="#1A1D28" stroke="#363B4B"/>
+    <circle cx="926" cy="239" r="14" fill="#D9A84F"/>
+    <text x="954" y="247" fill="#F5F6FA" font-family="Inter,Segoe UI,sans-serif" font-size="20" font-weight="740">Live Convert</text>
+    <text x="924" y="292" fill="#B8BECD" font-family="Inter,Segoe UI,sans-serif" font-size="16">Convert iOS pairs and</text>
+    <text x="924" y="320" fill="#B8BECD" font-family="Inter,Segoe UI,sans-serif" font-size="16">Android Motion JPGs</text>
+  </g>
+
+  <path d="M228 398H972" stroke="#363B4B" stroke-width="4" stroke-linecap="round"/>
+  <path d="M972 398L952 382M972 398L952 414" stroke="#8B7CFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="386" y="434" fill="#AEB5C6" font-family="Inter,Segoe UI,sans-serif" font-size="17">Choose a source, confirm the target platform, then convert.</text>
+</svg>
