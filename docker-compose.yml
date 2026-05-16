@@ -1,0 +1,36 @@
+services:
+  live-motion-studio:
+    image: ${LIVE_MOTION_IMAGE:-live-motion-studio:local}
+    build:
+      context: .
+    restart: unless-stopped
+    init: true
+    ports:
+      - "${LIVE_MOTION_PORT:-8787}:8787"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    security_opt:
+      - no-new-privileges:true
+    environment:
+      LIVEPHOTO_ALLOWED_ORIGINS: ${LIVEPHOTO_ALLOWED_ORIGINS:-*}
+      LIVEPHOTO_ALLOW_PRIVATE_URLS: ${LIVEPHOTO_ALLOW_PRIVATE_URLS:-1}
+      LIVEPHOTO_LOCALHOST_TO_HOST: ${LIVEPHOTO_LOCALHOST_TO_HOST:-1}
+      LIVEPHOTO_DOCKER_HOST_NAME: ${LIVEPHOTO_DOCKER_HOST_NAME:-host.docker.internal}
+      LIVEPHOTO_DAILY_IP_LIMIT: ${LIVEPHOTO_DAILY_IP_LIMIT:-10}
+      LIVEPHOTO_FFMPEG_CONCURRENCY: ${LIVEPHOTO_FFMPEG_CONCURRENCY:-2}
+      LIVEPHOTO_MAX_UPLOAD_MB: ${LIVEPHOTO_MAX_UPLOAD_MB:-160}
+      LIVEPHOTO_MAX_URL_MB: ${LIVEPHOTO_MAX_URL_MB:-160}
+      LIVEPHOTO_FFMPEG_TIMEOUT: ${LIVEPHOTO_FFMPEG_TIMEOUT:-180}
+      LIVEPHOTO_REQUEST_TIMEOUT: ${LIVEPHOTO_REQUEST_TIMEOUT:-20}
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8787/api/health', timeout=3).read()"
+        ]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s

@@ -1,0 +1,34 @@
+{
+  "name": "live-motion-studio",
+  "version": "1.0.0",
+  "description": "A hybrid browser/server Live Photo and Motion Photo conversion studio.",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaverickXu/live-motion-studio.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "postinstall": "node scripts/copy-ffmpeg-core.mjs"
+  },
+  "dependencies": {
+    "@ffmpeg/core-mt": "0.12.10",
+    "@ffmpeg/ffmpeg": "0.12.15",
+    "@ffmpeg/util": "0.12.2",
+    "lucide-react": "0.468.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "19.0.2",
+    "@types/react-dom": "19.0.2",
+    "@vitejs/plugin-react": "4.3.4",
+    "esbuild-wasm": "^0.24.2",
+    "typescript": "5.7.3",
+    "vite": "6.0.7"
+  }
+}

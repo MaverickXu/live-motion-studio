@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.vite/
+.tools/
+.npm-cache/
+public/ffmpeg-core/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.python-deps/
+.pip-tmp/
+*.pyc
+*.log
+.env
+*.local
+scripts/*-admin.ps1
